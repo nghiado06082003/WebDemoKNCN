@@ -3,7 +3,7 @@ from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 chatbot = ChatBot('Job Hunting')
-trainingData = open('D:/py_test/training.txt','r')
+trainingData = open("training.txt",'r')
 conversation = []
 
 for x in trainingData:
