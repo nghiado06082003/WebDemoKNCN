@@ -1069,3 +1069,10 @@ ul.conta li a {
 .hosting_page .footer {
      margin-top: 60px;
 }
+
+.custom-scrollbar {
+     position: relative;
+     width: 100%;
+     height: 50vh;
+     overflow: auto;
+   }
